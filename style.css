@@ -1,0 +1,423 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body,html
+{
+    width: 100%;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.bar
+{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    /* border: 2px solid red; */
+    background-color: white;
+    box-shadow: 2px 0px 100px 5px lightgray;
+    position: fixed;
+    z-index: 99999;
+}
+.bar .logo
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(36, 50, 93);
+    margin-left: 250px;
+    margin-top: 18px;
+    font-weight: bolder;
+}
+.bar ul
+{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+.bar ul li
+{
+    list-style: none;
+}
+.bar ul li a
+{
+    font-size: 15px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(36, 50, 93);
+    font-weight: 600;
+}
+.one
+{
+    height: 580px ;
+    width: 100%;
+    overflow: hidden;
+    /* animation-name: bgcolor;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    position: relative;
+    animation-iteration-count: infinite; */
+}
+.one img
+{
+    height: 100%;
+    width: 100%;
+}
+/* @keyframes bgcolor
+{
+    0%{background-image: url(https://bootstrapmade.com/demo/templates/MeFamily/assets/img/slide/slide-2.jpg)}
+    50%{background-image:url(https://bootstrapmade.com/demo/templates/MeFamily/assets/img/slide/slide-3.jpg)}
+    100%{background-image:url(https://bootstrapmade.com/demo/templates/MeFamily/assets/img/slide/slide-1.jpg)}
+} */
+.two
+{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.two h2
+{
+    text-align: center;
+}
+.two hr
+{
+    width: 40px;
+    height: 5px;
+    margin-top: 10px;
+    background-color: blue;
+    margin-left: 535px;
+}
+.two p
+{
+    margin-top:10px ;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.two .left-pic 
+{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+}
+.two .left-pic img{
+    height: 300px;
+    width: 500px;
+}
+.two .left-pic p
+{
+    margin-left: 50px;
+    text-align: justify;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.right-content
+{
+    margin-left: -25px;
+}
+.two .left-pic ul
+{
+    margin-top: 15px;
+}
+.two .left-pic ul li i
+{
+    margin-right:5px ;
+    color: blue;
+}
+.two .left-pic ul li
+{
+    list-style: none;
+    margin-left: 52px;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.two .left-pic a{
+    border: 1px solid rgb(0, 111, 190);
+    margin-left: 50px;
+    padding: 5px 25px;
+    color:rgb(0, 111, 190);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.three
+{
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    /* border: 2px solid green; */
+}
+.card-first
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 5px solid yellow; */
+
+}
+.card-one
+{
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.card-one i
+{
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 100%;
+    border: 1px solid rgb(0, 111, 190);
+    color: rgb(0, 111, 190);
+    margin-top: 25px;
+}
+.card-one hr
+{
+    width:45px;
+    margin-top: 7px;
+    margin-left: 150px;
+    height: 3px;
+    background-color: rgb(0, 111, 190);
+}
+.card-one p{
+    margin-top: 20px;
+}
+.card-two
+{
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.card-two i
+{
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 100%;
+    border: 1px solid rgb(0, 111, 190);
+    color: rgb(0, 111, 190);
+    margin-top: 25px;
+}
+.card-two hr
+{
+    width:45px;
+    margin-top: 7px;
+    margin-left: 150px;
+    height: 3px;
+    background-color: rgb(0, 111, 190);
+}
+.card-two p{
+    margin-top: 20px;
+}
+.card-three
+{
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.card-three i
+{
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 100%;
+    border: 1px solid rgb(0, 111, 190);
+    color: rgb(0, 111, 190);
+    margin-top: 25px;
+}
+.card-three hr
+{
+    width:45px;
+    margin-top: 7px;
+    margin-left: 150px;
+    height: 3px;
+    background-color: rgb(0, 111, 190);
+}
+.card-three p{
+    margin-top: 20px;
+}
+.card-four
+{
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.card-four i
+{
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 100%;
+    border: 1px solid rgb(0, 111, 190);
+    color: rgb(0, 111, 190);
+    margin-top: 25px;
+}
+.card-four hr
+{
+    width:45px;
+    margin-top: 7px;
+    margin-left: 150px;
+    height: 3px;
+    background-color: rgb(0, 111, 190);
+}
+.card-four p{
+    margin-top: 20px;
+}
+.card-five
+{
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.card-five i
+{
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 100%;
+    border: 1px solid rgb(0, 111, 190);
+    color: rgb(0, 111, 190);
+    margin-top: 25px;
+}
+.card-five hr
+{
+    width:45px;
+    margin-top: 7px;
+    margin-left: 150px;
+    height: 3px;
+    background-color: rgb(0, 111, 190);
+}
+.card-five p{
+    margin-top: 20px;
+}
+.card-six
+{
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.card-six i
+{
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 100%;
+    border: 1px solid rgb(0, 111, 190);
+    /* box-shadow:2px 2px 10px 2px rgba(211, 211, 211, 0.288); */
+    color: rgb(0, 111, 190);
+    margin-top: 25px;
+}
+.card-six hr
+{
+    width:45px;
+    margin-top: 7px;
+    margin-left: 150px;
+    height: 3px;
+    background-color: rgb(0, 111, 190);
+}
+.card-six p{
+    margin-top: 20px;
+}
+.four
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    /* border: 2px solid red; */
+    height: 300px;
+}
+.four hr
+{
+    width: 50px;
+    margin-left: 530px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.four p
+{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.four .pic
+{
+    height: 100%;
+    width: 98%;
+    /* border: 2px solid red; */
+    /* margin-left: 0px; */
+    display:flex;
+    justify-content : space-between;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+.four img
+{
+    height: 150px ;
+    width: 205px;
+    /* margin: 10px; */
+    justify-content: space-between;
+}
+/* .four .pics
+{
+    margin-left: 10px;
+} */
+.five
+{
+    height: 250px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(29, 40, 75);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.five h2
+{
+    color: white;
+    margin-top: 15px;
+}
+.five p
+{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.five .last
+{
+    font-size: 13px;
+}
+.five span
+{
+    color: blue;
+    font-size: 14px;
+}
+.five i
+{
+    padding: 8px;
+    border-radius: 100%;
+    background-color: rgb(0, 111, 190);
+    color: white;
+    font-size: 13px;
+}
+.five .fa-facebook
+{
+    padding: 8px 10px;
+}
+.five a
+{
+    margin-left: 1400px;
+    margin-top: 50px;
+    position: absolute;
+    right: 15px;
+    bottom:15px;
+     position: fixed;
+    /* bottom: 15px; */
+    z-index: 999;
+}
